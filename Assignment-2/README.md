@@ -1,6 +1,7 @@
 1. Create a file like nano file1.txt
 ----
-#cmd: 
+#cmd:
+
       echo "this is a file" > file1.txt
 ----
 
@@ -12,6 +13,7 @@ o Then see the output of file2.txt, cat file2.txt
 
 ----
 #cmd: 
+    
      cp file1.txt file2.txt 
      cat file2.txt 
 ----
@@ -22,6 +24,7 @@ o Then see the output of file2.txt, cat file2.txt
 
 ----
 #cmd: 
+
      cp file2.txt home 
      ls -lrt home/file2.txt 
 ----
@@ -45,10 +48,12 @@ behind it
 
 -----
 #cmd: 
+
      echo “Hello I am newline in file3” > file3.txt
      echo “Hello I am newline in file4” >> file4.txt
      
       cat file3.txt file4.txt 
+     
 “Hello I am newline in file3”
 “Hello I am newline in file4”
 ----
@@ -59,5 +64,6 @@ behind it
 
 ----
 #cmd
+
     rm file1.txt
 ----
