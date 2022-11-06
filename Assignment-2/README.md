@@ -49,10 +49,9 @@ behind it
 -----
 #cmd: 
 
-     echo “Hello I am newline in file3” > file3.txt
-     echo “Hello I am newline in file4” >> file4.txt
-     
-      cat file3.txt file4.txt 
+      guprasha@guprasha02-mac home % echo “Hello I am newline in file3” > file3.txt
+      guprasha@guprasha02-mac home % echo “Hello I am newline in file4” >> file4.txt
+      guprasha@guprasha02-mac home % cat file3.txt file4.txt 
       “Hello I am newline in file3”
       “Hello I am newline in file4”
 ----
