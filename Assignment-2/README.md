@@ -53,9 +53,8 @@ behind it
      echo “Hello I am newline in file4” >> file4.txt
      
       cat file3.txt file4.txt 
-     
-“Hello I am newline in file3”
-“Hello I am newline in file4”
+      “Hello I am newline in file3”
+      “Hello I am newline in file4”
 ----
 
 5. For remove a file or directory you can use the below two commands
